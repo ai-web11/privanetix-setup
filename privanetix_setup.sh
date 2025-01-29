@@ -30,7 +30,7 @@ while true; do
     printf "   • X (formerly Twitter): https://x.com/Airdropinsider_\n"
     printf "${RESET}"
 
-    # Privanetix Node Setup Script
+     # Privanetix Node Setup Script
 
     # Update and install necessary dependencies
     echo "🔄 Updating package list and installing dependencies..."
@@ -41,12 +41,12 @@ while true; do
     fi
 
     # Add Docker's official GPG key using gpg and store it in the trusted keyring directory
-    echo "🔑 Adding Docker's GPG key..."
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-archive.gpg
-    if [ $? -ne 0 ]; then
-        echo "❌ Error: Adding Docker GPG key failed. Retrying..."
-        continue
-    fi
+echo "🔑 Adding Docker's GPG key..."
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /etc/apt/trusted.gpg.d/docker-archive.gpg
+if [ $? -ne 0 ]; then
+    echo "❌ Error: Adding Docker GPG key failed. Retrying..."
+    continue
+fi
 
     # Add Docker's official repository
     echo "📦 Adding Docker repository..."
