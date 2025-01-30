@@ -9,8 +9,7 @@ while true; do
  A     A   I   G        A     A  NN  N   G
  AAAAAAA   I   G  GG    AAAAAAA  N N N   G  GG
  A     A   I   G   G    A     A  N  NN   G   G
- A     A  III   GGGG    A     A  N   N    GGGG
-                            
+ A     A  III   GGGG    A     A  N   N    GGGG                           
 EOF
 
     printf "\n\n"
