@@ -5,11 +5,12 @@ while true; do
     printf "\n"
     cat <<EOF
 
-  AAAAA   III   GGGG    AAAAA   N   N    GGGG
- A     A   I   G        A     A  NN  N   G
- AAAAAAA   I   G  GG    AAAAAAA  N N N   G  GG
- A     A   I   G   G    A     A  N  NN   G   G
- A     A  III   GGGG    A     A  N   N    GGGG                           
+
+  AAAAA   III   GGGGG   AAAAA   N   N   GGGGG
+ A     A   I    G       A     A  NN  N   G
+ AAAAAAA   I    G  GG   AAAAAAA  N N N   G  GG
+ A     A   I    G   G   A     A  N  NN   G   G
+ AAAAAAA  III   GGGGG   AAAAAAA  N   N   GGGGG
 EOF
 
     printf "\n\n"
@@ -37,7 +38,7 @@ EOF
     printf "   • X (formerly Twitter): https://x.com/Airdropinsider_\n"
     printf "${RESET}"
 
-     # Privanetix Node Setup Script
+    # Privanetix Node Setup Script
 
     # Update and install necessary dependencies
     echo "🔄 Updating package list and installing dependencies..."
